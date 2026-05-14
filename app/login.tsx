@@ -4,6 +4,7 @@ import styles from "./css/style";
 import { Link } from "expo-router";
 import React from "react";
 import FormField from "./components/FormField";
+import Button from "./components/Button";
 
 export default function Login() {
   return (
@@ -30,6 +31,9 @@ export default function Login() {
           </View>
         </View>
       </View>
+
+      <Button children={undefined}></Button>
+
       <View>
         <Link href={""} style={styles.botao}>
           <View style={styles.btn}>
